@@ -1,0 +1,98 @@
+import { PartEight } from "./PartEight";
+import { PartFive } from "./PartFive";
+import { PartFour } from "./PartFour";
+import { PartOne } from "./PartOne";
+import { PartSeven } from "./PartSeven";
+import { PartSix } from "./PartSix";
+import { PartThree } from "./PartThree";
+import { PartTwo } from "./PartTwo";
+
+export const items = [
+  [{ id: 0, content: <PartOne prefix="form-1" /> },
+  { id: 1, content: <PartOne prefix="form-2" /> },
+  { id: 2, content: <PartOne prefix="form-3" /> },
+  { id: 3, content: <PartOne prefix="form-4" /> },
+  { id: 4, content: <PartOne prefix="form-5" /> },
+  { id: 5, content: <PartOne prefix="form-6" /> },
+  { id: 6, content: <PartOne prefix="form-7" /> },
+  { id: 7, content: <PartOne prefix="form-8" /> },
+  { id: 8, content: <PartOne prefix="form-9" /> },
+  { id: 9, content: <PartOne prefix="form-10" /> }],
+
+  [{ id: 0, content: <PartTwo prefix="form-1" /> },
+  { id: 1, content: <PartTwo prefix="form-2" /> },
+  { id: 2, content: <PartTwo prefix="form-3" /> },
+  { id: 3, content: <PartTwo prefix="form-4" /> },
+  { id: 4, content: <PartTwo prefix="form-5" /> },
+  { id: 5, content: <PartTwo prefix="form-6" /> },
+  { id: 6, content: <PartTwo prefix="form-7" /> },
+  { id: 7, content: <PartTwo prefix="form-8" /> },
+  { id: 8, content: <PartTwo prefix="form-9" /> },
+  { id: 9, content: <PartTwo prefix="form-10" /> }],
+
+  [{ id: 0, content: <PartThree prefix="form-1" /> },
+  { id: 1, content: <PartThree prefix="form-2" /> },
+  { id: 2, content: <PartThree prefix="form-3" /> },
+  { id: 3, content: <PartThree prefix="form-4" /> },
+  { id: 4, content: <PartThree prefix="form-5" /> },
+  { id: 5, content: <PartThree prefix="form-6" /> },
+  { id: 6, content: <PartThree prefix="form-7" /> },
+  { id: 7, content: <PartThree prefix="form-8" /> },
+  { id: 8, content: <PartThree prefix="form-9" /> },
+  { id: 9, content: <PartThree prefix="form-10" /> }],
+
+  [{ id: 0, content: <PartFour prefix="form-1" /> },
+  { id: 1, content: <PartFour prefix="form-2" /> },
+  { id: 2, content: <PartFour prefix="form-3" /> },
+  { id: 3, content: <PartFour prefix="form-4" /> },
+  { id: 4, content: <PartFour prefix="form-5" /> },
+  { id: 5, content: <PartFour prefix="form-6" /> },
+  { id: 6, content: <PartFour prefix="form-7" /> },
+  { id: 7, content: <PartFour prefix="form-8" /> },
+  { id: 8, content: <PartFour prefix="form-9" /> },
+  { id: 9, content: <PartFour prefix="form-10" /> }],
+
+  [{ id: 0, content: <PartFive prefix="form-1" /> },
+  { id: 1, content: <PartFive prefix="form-2" /> },
+  { id: 2, content: <PartFive prefix="form-3" /> },
+  { id: 3, content: <PartFive prefix="form-4" /> },
+  { id: 4, content: <PartFive prefix="form-5" /> },
+  { id: 5, content: <PartFive prefix="form-6" /> },
+  { id: 6, content: <PartFive prefix="form-7" /> },
+  { id: 7, content: <PartFive prefix="form-8" /> },
+  { id: 8, content: <PartFive prefix="form-9" /> },
+  { id: 9, content: <PartFive prefix="form-10" /> }],
+
+  [{ id: 0, content: <PartSix prefix="form-1" /> },
+  { id: 1, content: <PartSix prefix="form-2" /> },
+  { id: 2, content: <PartSix prefix="form-3" /> },
+  { id: 3, content: <PartSix prefix="form-4" /> },
+  { id: 4, content: <PartSix prefix="form-5" /> },
+  { id: 5, content: <PartSix prefix="form-6" /> },
+  { id: 6, content: <PartSix prefix="form-7" /> },
+  { id: 7, content: <PartSix prefix="form-8" /> },
+  { id: 8, content: <PartSix prefix="form-9" /> },
+  { id: 9, content: <PartSix prefix="form-10" /> }],
+
+  [{ id: 0, content: <PartSeven prefix="form-1" /> },
+  { id: 1, content: <PartSeven prefix="form-2" /> },
+  { id: 2, content: <PartSeven prefix="form-3" /> },
+  { id: 3, content: <PartSeven prefix="form-4" /> },
+  { id: 4, content: <PartSeven prefix="form-5" /> },
+  { id: 5, content: <PartSeven prefix="form-6" /> },
+  { id: 6, content: <PartSeven prefix="form-7" /> },
+  { id: 7, content: <PartSeven prefix="form-8" /> },
+  { id: 8, content: <PartSeven prefix="form-9" /> },
+  { id: 9, content: <PartSeven prefix="form-10" /> }],
+
+  [{ id: 0, content: <PartEight prefix="form-1" /> },
+  { id: 1, content: <PartEight prefix="form-2" /> },
+  { id: 2, content: <PartEight prefix="form-3" /> },
+  { id: 3, content: <PartEight prefix="form-4" /> },
+  { id: 4, content: <PartEight prefix="form-5" /> },
+  { id: 5, content: <PartEight prefix="form-6" /> },
+  { id: 6, content: <PartEight prefix="form-7" /> },
+  { id: 7, content: <PartEight prefix="form-8" /> },
+  { id: 8, content: <PartEight prefix="form-9" /> },
+  { id: 9, content: <PartEight prefix="form-10" /> }],
+]
